@@ -1,0 +1,13 @@
+[package]
+name = "zorio"
+version = "0.1.0"
+authors = ["The Rust Project Developers", "Sebastian Jastrzebski <sebby2k@gmail.com>"]
+description = "Subset of standard library I/O ported to no_std"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/digitalstreamio/zorio"
+readme = "README.md"
+keywords = ["no_std", "bare-metal", "io"]
+edition = "2018"
+
+[dependencies]
+memchr = { version = "2", default-features = false }
